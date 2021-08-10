@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+    <timer/>
   </div>
 </template>
 
 <script>
+import Timer from '@/components/SweetTimer.vue'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Timer
+  }
 }
 </script>
 
